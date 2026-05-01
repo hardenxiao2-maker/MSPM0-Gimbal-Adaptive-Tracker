@@ -1,0 +1,39 @@
+# Build output
+Debug/
+Release/
+
+# CCS IDE files
+.settings/
+.clangd
+.ccsproject
+.cproject
+.project
+
+# SysConfig generated
+# (uncomment if you want to exclude auto-generated config)
+# ti_msp_dl_config.c
+# ti_msp_dl_config.h
+
+# Backup / duplicate folders
+targetConfigs - 副本/
+
+# Binary & object files
+*.o
+*.d
+*.out
+*.map
+*.opt
+*.xml
+
+# Auto-generated HTML docs
+README.html
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Word docs (optional, remove if you want to track)
+*.docx
+
+# PDF datasheets
+*.pdf
